@@ -97,7 +97,7 @@ dependencies {
     implementation("io.netty:netty-codec-http2:4.1.100") {
       because("Vulnerability detected in 4.1.72")
     }
-    implementation("io.projectreactor.netty:reactor-netty-http:1.1.13") {
+    implementation("io.projectreactor.netty:reactor-netty-http:1.1.22") {
       because("Vulnerability detected in 1.0.45")
     }
   }
