@@ -21,7 +21,7 @@
 hadoop = "3.4.0"
 iceberg = "1.5.0"
 dropwizard = "4.0.8"
-slf4j = "2.0.13"
+slf4j = "2.0.16"
 swagger = "1.6.14"
 
 [bundles]
