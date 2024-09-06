@@ -48,7 +48,10 @@
 
     // Check for updates, merge automatically
     {
-      matchManagers: ["gradle", "gradle-wrapper", "pip_requirements", "pip_setup", "dockerfile", "devcontainer", "docker-compose"],
+      matchManagers: [
+        "gradle", "gradle-wrapper",
+        "pip_requirements", "pip_setup", "poetry", "setup-cfg",
+        "dockerfile", "devcontainer", "docker-compose"],
       matchUpdateTypes: ["minor", "patch"],
       automerge: true,
       platformAutomerge: true,
@@ -56,7 +59,10 @@
 
     // Check for major updates, but do not merge automatically
     {
-      matchManagers: ["gradle", "gradle-wrapper", "pip_requirements", "pip_setup", "dockerfile", "devcontainer", "docker-compose"],
+      matchManagers: [
+        "gradle", "gradle-wrapper",
+        "pip_requirements", "pip_setup", "poetry", "setup-cfg",
+        "dockerfile", "devcontainer", "docker-compose"],
       matchUpdateTypes: ["major"],
       automerge: false,
     },
