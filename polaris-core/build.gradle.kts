@@ -31,7 +31,7 @@ dependencies {
   implementation("org.apache.iceberg:iceberg-api")
   implementation("org.apache.iceberg:iceberg-core")
   constraints {
-    implementation("io.airlift:aircompressor:0.27") { because("Vulnerability detected in 0.25") }
+    implementation("io.airlift:aircompressor:2.0.2") { because("Vulnerability detected in 0.25") }
   }
   // TODO - this is only here for the Discoverable interface
   // We should use a different mechanism to discover the plugin implementations
