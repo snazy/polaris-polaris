@@ -70,7 +70,7 @@ dependencies {
     implementation("org.apache.commons:commons-compress:1.27.1") {
       because("Vulnerability detected in 1.21")
     }
-    implementation("com.nimbusds:nimbus-jose-jwt:9.41") {
+    implementation("com.nimbusds:nimbus-jose-jwt:9.41.1") {
       because("Vulnerability detected in 9.8.1")
     }
   }
