@@ -95,10 +95,6 @@ dependencies {
   implementation(platform(libs.google.cloud.storage.bom))
   implementation("com.google.cloud:google-cloud-storage")
 
-  testFixturesApi(platform(libs.junit.bom))
-  testFixturesApi("org.junit.jupiter:junit-jupiter")
-  testFixturesApi(libs.assertj.core)
-  testFixturesApi(libs.mockito.core)
   testFixturesApi("com.fasterxml.jackson.core:jackson-core")
   testFixturesApi("com.fasterxml.jackson.core:jackson-databind")
   testFixturesApi(libs.commons.lang3)
